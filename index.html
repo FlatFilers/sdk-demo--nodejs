@@ -11,7 +11,7 @@
   <button id="import">Import Data</button>
 
   <script>
-    const importer = flatfileImporter('<%= token %>', {env: 'staging'})
+    const importer = flatfileImporter('<%= token %>')
 
     importer.on('init', ({ batchId }) => {
       console.log(`Batch ${batchId} has been initialized.`)
