@@ -11,7 +11,7 @@ app.engine('html', require('ejs').renderFile)
 
 app.get('/', async (_req, res) => {
   const currentUser = {
-    email: 'max.blank@flatfile.io'
+    email: 'your.user@example.com'
   }
 
   return res.render('index.html', {
