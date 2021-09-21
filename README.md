@@ -2,7 +2,7 @@
 
 ## Step 1: Create embed
 
-1. Go to [staging Flatfile website](https://app.staging.flatfile.zone/)
+1. Go to the [Flatfile app](https://app.flatfile.io/)
 2. Create your Flatfile account (if you haven't already).
 3. Create and configure your embed.
 
